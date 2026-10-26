@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="detail">
+    <a class="back-link" href="{{ url_for('gallery') }}">← 갤러리로 돌아가기</a>
+    <img class="detail-image" src="{{ photo.image }}" alt="{{ photo.title }}">
+    <div class="detail-copy">
+        <span class="category">{{ photo.category }}</span>
+        <h1>{{ photo.title }}</h1>
+        <p>{{ photo.description }}</p>
+        <p class="detail-note">이 페이지는 사진별 상세 정보를 표시하는 예제입니다. 외부 API를 연결하면 실제 API의 제목, 주소, 설명 등의 정보를 보여줄 수 있습니다.</p>
+    </div>
+</article>
+{% endblock %}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df3b7156baaed0254eb98530301e9a62 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_df3b7156baaed0254eb98530301e9a62" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_df3b7156baaed0254eb98530301e9a62 = L.map(
+                "map_df3b7156baaed0254eb98530301e9a62",
+                {
+                    center: [36.5, 127.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_10e870c327ec6139de2d0c8b7479f78b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_10e870c327ec6139de2d0c8b7479f78b.addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+            var marker_82419f585420ee9f0a996a621ebaa5f3 = L.marker(
+                [37.573, 126.9794],
+                {
+}
+            ).addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+        var popup_56d0df2286d21b90a21defd0eb327044 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2361e07da09438bccb113311bed24cc = $(`<div id="html_b2361e07da09438bccb113311bed24cc" style="width: 100.0%; height: 100.0%;">     <b>서울특별시 종로구</b><br>     날씨 : 맑음<br>     기온 : 16.8 °     </div>`)[0];
+                popup_56d0df2286d21b90a21defd0eb327044.setContent(html_b2361e07da09438bccb113311bed24cc);
+            
+        
+
+        marker_82419f585420ee9f0a996a621ebaa5f3.bindPopup(popup_56d0df2286d21b90a21defd0eb327044)
+        ;
+
+        
+    
+    
+            marker_82419f585420ee9f0a996a621ebaa5f3.bindTooltip(
+                `<div>
+                     서울특별시 종로구
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67f51d2b02e50d348bb297930e47eee2 = L.marker(
+                [37.5636, 126.9976],
+                {
+}
+            ).addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+        var popup_907cac42afb2ed711d8613d66bb466ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f317393ac059be8db57a1599facf489 = $(`<div id="html_1f317393ac059be8db57a1599facf489" style="width: 100.0%; height: 100.0%;">     <b>서울특별시 중구</b><br>     날씨 : 맑음<br>     기온 : 16.8 °     </div>`)[0];
+                popup_907cac42afb2ed711d8613d66bb466ea.setContent(html_1f317393ac059be8db57a1599facf489);
+            
+        
+
+        marker_67f51d2b02e50d348bb297930e47eee2.bindPopup(popup_907cac42afb2ed711d8613d66bb466ea)
+        ;
+
+        
+    
+    
+            marker_67f51d2b02e50d348bb297930e47eee2.bindTooltip(
+                `<div>
+                     서울특별시 중구
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e7d925f3b568bc7c77f40774e403c366 = L.marker(
+                [37.5326, 126.99],
+                {
+}
+            ).addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+        var popup_33d4694b13ccba2668dd04714edf5270 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7d810d40c63cfb5d13d581329ba78315 = $(`<div id="html_7d810d40c63cfb5d13d581329ba78315" style="width: 100.0%; height: 100.0%;">     <b>서울특별시 용산구</b><br>     날씨 : 맑음<br>     기온 : 18.5 °     </div>`)[0];
+                popup_33d4694b13ccba2668dd04714edf5270.setContent(html_7d810d40c63cfb5d13d581329ba78315);
+            
+        
+
+        marker_e7d925f3b568bc7c77f40774e403c366.bindPopup(popup_33d4694b13ccba2668dd04714edf5270)
+        ;
+
+        
+    
+    
+            marker_e7d925f3b568bc7c77f40774e403c366.bindTooltip(
+                `<div>
+                     서울특별시 용산구
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1fe27f90c998dff29c77ede57d1aef3f = L.marker(
+                [35.1038, 129.0306],
+                {
+}
+            ).addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+        var popup_7c0cb3c033e1323f281ebcc5c6dddec3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37d7d9d8efd0ea514353d0f20f925012 = $(`<div id="html_37d7d9d8efd0ea514353d0f20f925012" style="width: 100.0%; height: 100.0%;">     <b>부산광역시 중구</b><br>     날씨 : 맑음<br>     기온 : 18.6 °     </div>`)[0];
+                popup_7c0cb3c033e1323f281ebcc5c6dddec3.setContent(html_37d7d9d8efd0ea514353d0f20f925012);
+            
+        
+
+        marker_1fe27f90c998dff29c77ede57d1aef3f.bindPopup(popup_7c0cb3c033e1323f281ebcc5c6dddec3)
+        ;
+
+        
+    
+    
+            marker_1fe27f90c998dff29c77ede57d1aef3f.bindTooltip(
+                `<div>
+                     부산광역시 중구
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_376c16f776cdc90472ea3a181b03b0c8 = L.marker(
+                [35.8694, 128.6062],
+                {
+}
+            ).addTo(map_df3b7156baaed0254eb98530301e9a62);
+        
+    
+        var popup_0d229feb36906c95dbcd2bf9fad66bf2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_984153c408ff5f1bb9aa1d9c725808d9 = $(`<div id="html_984153c408ff5f1bb9aa1d9c725808d9" style="width: 100.0%; height: 100.0%;">     <b>대구광역시 중구</b><br>     날씨 : 맑음<br>     기온 : 18.1 °     </div>`)[0];
+                popup_0d229feb36906c95dbcd2bf9fad66bf2.setContent(html_984153c408ff5f1bb9aa1d9c725808d9);
+            
+        
+
+        marker_376c16f776cdc90472ea3a181b03b0c8.bindPopup(popup_0d229feb36906c95dbcd2bf9fad66bf2)
+        ;
+
+        
+    
+    
+            marker_376c16f776cdc90472ea3a181b03b0c8.bindTooltip(
+                `<div>
+                     대구광역시 중구
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

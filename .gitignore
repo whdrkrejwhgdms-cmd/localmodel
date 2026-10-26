@@ -1,0 +1,68 @@
+.llm
+.venv
+*.zip
+*.csv# ��뷮 ��Ǻм� ������
+�һ���ν����������_��(���)����_20260630/
+
+# ������ ����
+*.mp4
+
+# Python ����ȯ��
+.llm/
+.venv/
+venv/
+
+# Python ĳ��
+__pycache__/
+*.pyc
+
+# ��� ���� ����
+.env
+
+# Python 가상환경
+.llm/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 환경변수 및 비밀키
+.env
+
+# AI 모델 파일
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# 모델 및 임베딩 다운로드 폴더
+models/
+model/
+embeddings/
+
+
+# API 키 및 비밀정보
+.env
+.env.*
+
+# 대용량 상권 원본 데이터
+data/*.csv
+data/*.zip
+소상공인시장진흥공단_상가(상권)정보_20260630/
+소상공인시장진흥공단_상가(상권)정보_20260630.zip
+
+# 동영상
+*.mp4
+*.webm
+
+# Python 가상환경
+.llm/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+tour_data/area_results.html
+tour_data/area_results.json
